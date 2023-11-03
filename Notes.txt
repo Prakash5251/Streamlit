@@ -7,6 +7,8 @@
 
 # To create new environment for streamlit
 -- conda create -n streamlit python=3.10.9
+-- python -m venv venv (needs to be in project directory)
+
 
 # To activate new environment
 -- conda activate streamlit
@@ -21,5 +23,10 @@
 -- conda env remove --name myenv
 -- conda env remove --prefix /path/to/myenv
 
+# To list all packages available in current environment
+-- conda list
 
+# To install streamlit within new environment
+-- pip install -r requirements.txt (## But before hitting this command ensure requirements.txt listed all packages which we want in this environment)
 
+ 
